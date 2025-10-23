@@ -1,0 +1,8 @@
+-
+ name: pb on use case of file module
+ hosts: all
+ tasks:
+  - name: create a file on /opt
+    file:
+     path: /opt/india.txt
+     state: touch
