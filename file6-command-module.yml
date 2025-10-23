@@ -4,4 +4,8 @@
  tasks:
   - name: command module
     command: 
-     cmd: echo "Hyderabad" >> /opt/india.txt
+     cmd: mkdir /opt/kukatpally
+
+  - name: command module
+    command:
+     cmd: touch /opt/kukatpally/hyd.txt
