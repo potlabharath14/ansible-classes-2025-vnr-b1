@@ -4,5 +4,5 @@
  tasks:
   - name: git install code
     yum:
-     name: git
+     name: git-core
      state: absent
