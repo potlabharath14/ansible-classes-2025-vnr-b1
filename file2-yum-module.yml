@@ -1,0 +1,8 @@
+-
+ name: pb on use case of yum module
+ hosts: all
+ tasks:
+  - name: code to install apache
+    yum:
+     name: httpd
+     state: present
