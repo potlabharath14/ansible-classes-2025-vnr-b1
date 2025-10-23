@@ -1,0 +1,14 @@
+-
+ name: pb on use case of file module
+ hosts: all
+ tasks:
+  - name: create a file on /opt
+    file:
+     path: /opt/india.txt
+     state: touch
+  
+  - name: write a line into file
+    lineinfile:
+     path: /opt/india.txt
+     line: "Welcome to VNR"
+     
