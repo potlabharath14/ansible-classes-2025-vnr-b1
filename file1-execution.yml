@@ -5,5 +5,4 @@
   - name: git install code
     yum:
      name: git
-     state: present
-     
+     state: absent
