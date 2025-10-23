@@ -1,0 +1,9 @@
+-
+ name: playbook on execution
+ hosts: all
+ tasks:
+  - name: git install code
+    yum:
+     name: git
+     state: present
+     
