@@ -3,4 +3,5 @@
  hosts: node1
  tasks:
   - name: command module
-    command: echo "Hyderabad" >> /opt/india.txt
+    command: 
+     cmd: echo "Hyderabad" >> /opt/india.txt
