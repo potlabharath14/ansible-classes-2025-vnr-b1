@@ -1,0 +1,6 @@
+-
+ name: pb on use case of command module
+ hosts: node1
+ tasks:
+  - name: command module
+    command: echo "Hyderabad" >> /opt/india.txt
